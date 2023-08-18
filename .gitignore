@@ -11,6 +11,7 @@ target/
 *.iws
 *.iml
 *.ipr
+*.com/warnercloud/showlistproject__/SQLConnect.java
 
 ### Eclipse ###
 .apt_generated

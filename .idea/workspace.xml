@@ -4,28 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056ca59c-b8ef-401e-871d-aa184908aa16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/warnercloud/showlistproject__/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/warnercloud/showlistproject__/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/warnercloud/showlistproject__/SQLConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/warnercloud/showlistproject__/showlists/wantToWatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/warnercloud/showlistproject__/showlists/watchedShows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/warnercloud/showlistproject__/addEntryPopUp.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/warnercloud/showlistproject__/main_FXML.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/warnercloud/showlistproject__/styles.css" afterDir="false" />
+    <list default="true" id="056ca59c-b8ef-401e-871d-aa184908aa16" name="Changes" comment="ported showlist page from pl_project into standalone app.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warnercloud/showlistproject__/SQLConnectOpen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +24,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "NyzheirTS"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4e57da99-0849-4062-874b-48fc99ad0acf" />
+        <option name="url" value="https://github.com/NyzheirTS/ShowListProject__.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
@@ -59,13 +56,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/eshas/IdeaProjects/ShowListProject__/src/main/resources/com/warnercloud/showlistproject__"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\eshas\IdeaProjects\ShowListProject__\src\main\resources\com\warnercloud\showlistproject__" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.warnercloud.showlistproject__" />
     </key>
   </component>
   <component name="RunManager">
@@ -97,6 +98,30 @@
       <option name="presentableId" value="Default" />
       <updated>1692323097791</updated>
     </task>
+    <task id="LOCAL-00001" summary="ported showlist page from pl_project into standalone app.">
+      <option name="closed" value="true" />
+      <created>1692331421790</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692331421790</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ported showlist page from pl_project into standalone app." />
+    <option name="LAST_COMMIT_MESSAGE" value="ported showlist page from pl_project into standalone app." />
   </component>
 </project>
